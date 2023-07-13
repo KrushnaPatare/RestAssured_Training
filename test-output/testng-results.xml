@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-01T19:39:31 IST" name="Default suite" finished-at="2023-07-01T19:39:40 IST" duration-ms="9447">
+    <groups>
+    </groups>
+    <test started-at="2023-07-01T19:39:31 IST" name="Default test" finished-at="2023-07-01T19:39:40 IST" duration-ms="9447">
+      <class name="day1.HTTPRequests">
+        <test-method signature="getUsers()[pri:1, instance:day1.HTTPRequests@359f7cdf]" started-at="2023-07-01T19:39:31 IST" name="getUsers" finished-at="2023-07-01T19:39:37 IST" duration-ms="6075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method signature="createUser()[pri:2, instance:day1.HTTPRequests@359f7cdf]" started-at="2023-07-01T19:39:37 IST" name="createUser" finished-at="2023-07-01T19:39:39 IST" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser1()[pri:3, instance:day1.HTTPRequests@359f7cdf]" started-at="2023-07-01T19:39:39 IST" name="createUser1" finished-at="2023-07-01T19:39:39 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser1 -->
+        <test-method signature="updateUser()[pri:0, instance:day1.HTTPRequests@359f7cdf]" started-at="2023-07-01T19:39:39 IST" name="updateUser" finished-at="2023-07-01T19:39:40 IST" depends-on-methods="day1.HTTPRequests.createUser1" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:4, instance:day1.HTTPRequests@359f7cdf]" started-at="2023-07-01T19:39:40 IST" name="deleteUser" finished-at="2023-07-01T19:39:40 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day1.HTTPRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
